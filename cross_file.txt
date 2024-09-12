@@ -1,0 +1,16 @@
+[binaries]
+c = ['ccache', 'arm-none-eabi-gcc']
+ar = 'arm-none-eabi-gcc-ar'
+strip = 'arm-none-eabi-strip'
+
+[host_machine]
+system = 'freertos'
+cpu_family = 'arm'
+cpu = ''
+endian = 'little'
+
+[properties]
+freertos_port = 'GCC/ARM_CM7/r0p1'
+c_args = ['-march=armv7e-m', '-mfloat-abi=softfp', '-mfpu=fpv5-d16', '-ffunction-sections', '-fdata-sections']
+c_link_args = ['-march=armv7e-m', '-mfloat-abi=softfp', '-mfpu=fpv5-d16']
+

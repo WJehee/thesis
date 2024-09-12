@@ -1,0 +1,15 @@
+[submodule "lib/slirp"]
+	path = lib/slirp
+	url = git@gitlab.freedesktop.org:slirp/libslirp.git
+[submodule "lib/param"]
+	path = lib/param
+	url = git@github.com:spaceinventor/libparam.git
+[submodule "lib/csp"]
+	path = lib/csp
+	url = git@github.com:libcsp/libcsp.git
+[submodule "lib/freertos/FreeRTOS-Kernel"]
+	path = lib/freertos/FreeRTOS-Kernel
+	url = git@github.com:FreeRTOS/FreeRTOS-Kernel.git
+[submodule "lib/freertos_tcp/FreeRTOS-Plus-TCP"]
+	path = lib/freertos_tcp/FreeRTOS-Plus-TCP
+	url = git@github.com:FreeRTOS/FreeRTOS-Plus-TCP.git
