@@ -2,7 +2,7 @@
 
 This repository contains the code for the simulator developed during my master thesis.
 It includes the simulator and the AEAD implementation.
-The code for compiling it on the real hardware is not included as it is proprietary.
+Not all source code for this research could be released due to some constraints regarding proprietary licenses.
 
 # Building, running, etc.
 
